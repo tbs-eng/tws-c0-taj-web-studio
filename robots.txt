@@ -1,0 +1,19 @@
+# Taj Web Studio — all crawlers welcome, including AI.
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI crawlers (many hosts block these by default — we don't)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://tajwebstudio.com/sitemap.xml
