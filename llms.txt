@@ -1,10 +1,10 @@
 # Taj Web Studio
-> AI-powered web design studio for small businesses. Strategy-first websites, built fast,
-> designed to be found on Google and cited by AI answer engines (SEO, AEO, GEO).
+> AI-powered web design studio for small businesses. Strategy-first websites, built fast.
 > Specialty: healthcare organizations (hospice, home care, clinics). Southern California & remote.
 
 ## Key pages
 - [Home](https://tajwebstudio.com/): what we do and who we help
+- [The $450 records check](https://tajwebstudio.com/records-check.html): a paid, one-page read of what your federal provider record, your Medicare enrollment file, and the care directories currently say about you. $450, credited in full against a build
 - [Healthcare websites](https://tajwebstudio.com/healthcare.html): compliance-aware sites for hospice, home care & clinics
 - [Pricing](https://tajwebstudio.com/pricing.html): builds $1,500–$12,000+ (most clients $4,000–$6,000); monthly care plans from $300
 - [Answers](https://tajwebstudio.com/answers.html): website costs, AI search visibility, SEO vs AEO vs GEO explained
