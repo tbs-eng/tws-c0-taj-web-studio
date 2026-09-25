@@ -29,6 +29,13 @@ header{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:bl
 .nav .logo img{height:40px;width:auto}
 .nav nav{display:flex;gap:22px;margin-left:auto;font-size:15px;font-weight:500;color:var(--slate)}
 .nav nav a:hover{color:var(--ink)}
+/* mobile menu */
+.menu-btn{display:none;flex-direction:column;justify-content:center;gap:5px;width:42px;height:42px;padding:0 10px;border:1px solid var(--line);border-radius:9px;background:#fff;cursor:pointer}
+.menu-btn span{display:block;height:2px;background:var(--ink);border-radius:2px;transition:transform .2s,opacity .2s}
+.menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
+.menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.nav nav .nav-cta{display:none}
 /* buttons */
 .btn{display:inline-block;font-family:var(--ff-b);font-weight:600;font-size:16px;border-radius:9px;padding:13px 24px;transition:.15s}
 .btn-gold{background:var(--gold);color:#fff}
@@ -75,14 +82,23 @@ footer .base{border-top:1px solid #24405C;margin-top:38px;padding-top:22px;displ
 footer .tag{color:var(--gold-b);letter-spacing:.12em;font-weight:600;font-size:11.5px}
 @media(max-width:860px){
   .g3,.g4{grid-template-columns:1fr 1fr}
-  .nav{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:8px;row-gap:6px;column-gap:12px}
-  .nav .btn{margin-left:auto}
-  .nav nav{order:3;width:100%;margin-left:0;gap:16px;font-size:14px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;padding:2px 0 4px}
+  .nav{flex-wrap:wrap;height:auto;min-height:64px;padding-top:10px;padding-bottom:10px;column-gap:12px}
+  .nav .btn{margin-left:auto;order:1}
+  .menu-btn{display:inline-flex;order:2}
+  .nav nav{display:none;order:3;width:100%;flex-direction:column;gap:0;margin:6px 0 0;padding:4px 0 0;border-top:1px solid var(--line);font-size:16px}
+  .nav nav.open{display:flex}
+  .nav nav a{padding:13px 2px;border-bottom:1px solid var(--line)}
+  .nav nav a:last-child{border-bottom:0}
+  .nav nav .nav-cta{display:block;color:var(--gold);font-weight:600}
   footer .cols{grid-template-columns:1fr}
 }
 @media(max-width:560px){
   .nav .logo img{height:30px}
   .nav .btn{padding:8px 12px;font-size:13.5px}
+}
+@media(max-width:400px){
+  .nav .btn{display:none}
+  .menu-btn{margin-left:auto}
   .g2,.g3,.g4{grid-template-columns:1fr}
   section{padding:52px 0}
   .hero{padding:64px 0 56px}
