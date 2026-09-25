@@ -30,7 +30,7 @@ header{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:bl
 .nav nav{display:flex;gap:22px;margin-left:auto;font-size:15px;font-weight:500;color:var(--slate)}
 .nav nav a:hover{color:var(--ink)}
 /* mobile menu */
-.menu-btn{display:none;flex-direction:column;justify-content:center;gap:5px;width:42px;height:42px;padding:0 10px;border:1px solid var(--line);border-radius:9px;background:#fff;cursor:pointer}
+.menu-btn{display:none;flex-direction:column;justify-content:center;gap:5px;width:42px;height:42px;padding:0 10px;border:0;border-radius:9px;background:transparent;cursor:pointer}
 .menu-btn span{display:block;height:2px;background:var(--ink);border-radius:2px;transition:transform .2s,opacity .2s}
 .menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
 .menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
