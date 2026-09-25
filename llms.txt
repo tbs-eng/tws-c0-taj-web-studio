@@ -4,9 +4,8 @@
 
 ## Key pages
 - [Home](https://tajwebstudio.com/): what we do and who we help
-- [The $450 records check](https://tajwebstudio.com/records-check.html): a paid, one-page read of what your federal provider record, your Medicare enrollment file, and the care directories currently say about you. $450, credited in full against a build
 - [Healthcare websites](https://tajwebstudio.com/healthcare.html): compliance-aware sites for hospice, home care & clinics
-- [Pricing](https://tajwebstudio.com/pricing.html): builds $1,500–$12,000+ (most clients $4,000–$6,000); monthly care plans from $300
+- [Pricing](https://tajwebstudio.com/pricing.html): builds $1,500–$12,000+ (most clients $4,000–$6,000); monthly care plans $300–500
 - [Answers](https://tajwebstudio.com/answers.html): website costs, why healthcare AI citation is concentrated in six domains, SEO vs AEO vs GEO explained
 - [Book a free discovery call](https://tajwebstudio.com/book.html): free 30-minute consultation
 
