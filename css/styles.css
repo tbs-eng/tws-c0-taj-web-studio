@@ -75,10 +75,14 @@ footer .base{border-top:1px solid #24405C;margin-top:38px;padding-top:22px;displ
 footer .tag{color:var(--gold-b);letter-spacing:.12em;font-weight:600;font-size:11.5px}
 @media(max-width:860px){
   .g3,.g4{grid-template-columns:1fr 1fr}
-  .nav nav{display:none}
+  .nav{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:8px;row-gap:6px;column-gap:12px}
+  .nav .btn{margin-left:auto}
+  .nav nav{order:3;width:100%;margin-left:0;gap:16px;font-size:14px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;padding:2px 0 4px}
   footer .cols{grid-template-columns:1fr}
 }
 @media(max-width:560px){
+  .nav .logo img{height:30px}
+  .nav .btn{padding:8px 12px;font-size:13.5px}
   .g2,.g3,.g4{grid-template-columns:1fr}
   section{padding:52px 0}
   .hero{padding:64px 0 56px}
