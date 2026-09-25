@@ -1,6 +1,6 @@
 # Taj Web Studio
 > AI-powered web design studio for small businesses. Strategy-first websites, built fast.
-> Specialty: healthcare organizations (hospice, home care, clinics). Southern California & remote.
+> Serves care providers (hospice, home care, clinics) and local businesses. Southern California & remote.
 
 ## Key pages
 - [Home](https://tajwebstudio.com/): what we do and who we help
