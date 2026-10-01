@@ -149,3 +149,10 @@ img.photo{width:100%;height:auto;padding:0;object-fit:cover;display:block}
 .card.path{position:relative}
 .hero-v2 .btn-ghost{border-color:#fff;color:#fff}
 .hero-v2 .btn-ghost:hover{background:#fff;color:var(--ink)}
+
+/* pain cards + promise strip (30 Sept 2026) */
+.card.pain{border-top:4px solid var(--gold)}
+.card.pain .said{font-family:var(--ff-h);font-size:16px;color:var(--navy);font-style:italic;margin-bottom:12px}
+.card.pain .cost{margin-bottom:8px}
+.card.pain b{color:var(--ink)}
+.card.promise{border-left:4px solid var(--gold);background:var(--mist)}
