@@ -1,8 +1,33 @@
-# tws-c0-taj-web-studio
-Taj Web Studio's own website (Client0) — tajwebstudio.com.
+# Taj Web Studio: tajwebstudio.com
 
-Static HTML/CSS, no build step. Deployed via **Cloudflare Pages** (push to GitHub → Cloudflare builds it; since 1 Aug 2026 — see taj-studio-ops `now/LIVE-STATE.md`). *(Corrected 28 Sept; this line used to say GitHub Pages.)*
-Structure: 8 pages + `css/styles.css` (design system per the brand kit) + `assets/` (outlined SVG logos).
-Visibility layer: per-page meta + JSON-LD schema, `sitemap.xml`, `robots.txt` (AI crawlers allowed), `llms.txt`.
+The website for my web studio: planned, built and hosted by me.
+**Live:** https://tajwebstudio.com
 
-Strategy docs (blueprint, proposal, brand kit) live in the ops repo: `taj-studio-ops/clients/client0-taj-web-studio/`.
+## What it is
+
+A fast, plain static site: 8 pages of hand-written HTML and CSS with a small
+amount of JavaScript. There's no framework and no build step, so pages load
+quickly, nothing needs patching, and hosting costs nothing.
+
+## How it's built
+
+| Area | What I did |
+| --- | --- |
+| Front end | Semantic HTML, one shared stylesheet, responsive layout with a phone menu |
+| Search & AI visibility | Per-page titles and descriptions, JSON-LD structured data (ProfessionalService, Service, Person, FAQPage), `sitemap.xml` with last-changed dates, `robots.txt`, `llms.txt` |
+| Hosting | Cloudflare Pages. Every push to `main` builds and publishes the site |
+| DNS | Moved from the registrar to Cloudflare; web and Zoho email records copied and checked before the switch |
+| Redirects | `_redirects` sends retired pages to their replacements with permanent (301) redirects |
+
+## Run it locally
+
+No install needed. Open `index.html` in a browser, or serve the folder:
+
+```
+python -m http.server 8000
+```
+
+then visit http://localhost:8000.
+
+---
+Leonardo De Leon · San Diego, CA · [tajwebstudio.com](https://tajwebstudio.com)
